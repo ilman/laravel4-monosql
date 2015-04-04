@@ -28,7 +28,6 @@ class CreateLogsTable extends Migration {
 			$table->string('level_name', 100);
 			$table->text('url');
 			$table->string('method', 10);
-			$table->text('message');
 			$table->string('ip_address', 50);
 			$table->text('ref_url');
 			$table->text('session');

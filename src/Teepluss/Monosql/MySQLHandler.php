@@ -33,7 +33,6 @@ class MySQLHandler extends AbstractProcessingHandler {
     {
         $data = array(
             'channel'    => $record['channel'],
-            'message'    => $record['message'],
             'level'      => $record['level'],
             'level_name' => $record['level_name'],
             'context'    => json_encode($record['context']),
