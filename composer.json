@@ -1,14 +1,18 @@
 {
-    "name": "teepluss/monosql",
+    "name": "scienceguard/monosql",
     "description": "Laravel 4 MySQL driver for Monolog",
     "keywords": ["laravel", "laravel4", "log", "monolog", "mysql"],
-    "homepage": "https://github.com/teepluss/laravel4-monosql",
+    "homepage": "https://github.com/ilman/laravel4-monosql",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Teepluss",
             "email": "admin@laravel.in.th"
+        },
+        {
+            "name": "Ilman Maulana",
+            "email": "ilman.maulana@gmail.com"
         }
     ],
     "require": {
